@@ -6,7 +6,7 @@ mpl.rcParams['font.sans-serif'] = ['SimHei'] #SimHei是黑体的意思
 mpl.rcParams['axes.unicode_minus'] = False #解决保存图像是负号'-'显示为方块的问题           
 
 # 文件名称
-file_name = '15cm'
+file_name = '15nocm'
 file_type = 'dat'
 file_full_name = file_name + '.' + file_type
 
