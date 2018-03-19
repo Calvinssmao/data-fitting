@@ -39,8 +39,9 @@ pl.xlabel(u"横坐标")
 pl.ylabel(u"纵坐标")
 # 绘图 标签 颜色：color='red'
 pl.plot(x, y, 'b', label='Experiment data', linewidth=3)
-pl.plot(x, y2, 'r--',label='Fitting data', linewidth=2)
+#pl.plot(x, y2, 'r--',label='Fitting data', linewidth=2)
 pl.legend()
 # 保存图像
+#pl.savefig(file_name + "_fit.png")
 pl.savefig(file_name + ".png")
 pl.show()
